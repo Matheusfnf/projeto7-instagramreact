@@ -1,0 +1,426 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.web-section {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.website {
+  max-width: 1336px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.topo {
+  height: 54px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 999;
+  background-color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 0px 5px #777;
+}
+
+.topo-esquerdo {
+  display: flex;
+  justify-content: start;
+}
+
+.logotipo {
+  width: 22px;
+  height: 22px;
+  margin: 15px;
+  border-right: 2px solid gray;
+  padding-right: 10px;
+}
+
+.logoescrita {
+  width: 103px;
+  height: 29px;
+  margin-top: 16px;
+}
+
+.pesquisar {
+  width: 215px;
+  height: 28px;
+  color: #979797;
+  font-weight: 400;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisar h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.topo-direito {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+
+.topo-direito img {
+  width: 22px;
+  height: 22px;
+}
+
+.barra-horizontal {
+  height: 5px;
+  width: 100%;
+  width: 943px;
+  background-color: blue;
+  margin-top: 100px;
+}
+
+.caixa-stories {
+  width: 614px;
+  height: 118px;
+  background-color: #ffffff;
+  margin-top: 65px;
+  margin-bottom: 24px;
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-start;
+  position: relative;
+  border: 1px solid #dbdbdb;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.stories {
+  margin: 0px 10px;
+  margin-top: 18px;
+  width: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-stories {
+  width: 100%;
+  max-width: 66px;
+}
+
+.stories p {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.fundo-storie {
+  width: 66px;
+  height: 66px;
+  position: absolute;
+}
+
+.img-storie {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.seta {
+  position: absolute;
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  top: 43px;
+  right: 6px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #ffffff;
+  opacity: 50%;
+}
+
+.feed {
+  width: 614px;
+  height: 749px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.feed-cima {
+  height: 62px;
+  display: flex;
+
+  justify-content: start;
+  align-items: center;
+}
+
+.feed-cima h3 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.imgpequena {
+  height: 32px;
+  width: 32px;
+  margin-left: 17px;
+}
+
+.tres-pontinhos {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  margin: 0 auto;
+  margin-right: 17px;
+}
+
+.post-img img {
+  width: 612px;
+  height: 612px;
+}
+
+.feed-baixo {
+  height: 73px;
+}
+
+.feed-baixo-icons img {
+  height: 22px;
+  width: 22px;
+  margin-top: 5px;
+}
+
+.feed-baixo-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.primeiros-icons {
+  width: 300px;
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.feed-baixo-paragrafo {
+  display: flex;
+  align-items: center;
+}
+
+.feed-baixo-paragrafo p {
+  font-size: 14px;
+}
+
+.feed-baixo-paragrafo img {
+  width: 20px;
+}
+
+.fotinha-respondeai {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+  margin-right: 10px;
+}
+
+.sidebar {
+  width: 293px;
+  height: 522px;
+  margin-top: 120px;
+  margin-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-topo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.username {
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.barra {
+  width: 293px;
+  height: 9px;
+  background-color: #fafafa;
+  margin: 0 auto;
+}
+
+.escrita-sidebar {
+  width: 293px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  font-size: 15px;
+  color: #282323;
+}
+
+.nome {
+  font-size: 14px;
+  font-weight: 500;
+  color: #262626;
+  margin-bottom: 6px;
+}
+
+.status-segue {
+  color: #8e8e8e;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.caixa-perfil img {
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+
+.caixa-perfil {
+  width: 293px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+  height: 35px;
+}
+
+.grupo-esquerdo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palavras {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+}
+
+.grupo-esquerdo img {
+  margin-left: 42px;
+}
+
+.Seguir {
+  width: 36px;
+  color: #139ef2;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.informaçoes-adicionais {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-weight: 400;
+  color: #c7c7c7;
+  width: 300px;
+  margin-top: 20px;
+}
+.informaçoes-adicionais-2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  font-weight: 400;
+  color: #c7c7c7;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.fotoescolhida {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+@media (max-width: 935px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 614px) {
+  .pesquisar {
+    display: none;
+  }
+
+  .topo-esquerdo {
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .logotipo {
+    padding: 0;
+    border-right: 0;
+    margin: 0;
+  }
+
+  .logoescrita {
+    margin: 0;
+  }
+
+  .topo-direito {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  .topo-direito img:nth-child(2),
+  .topo-direito img:nth-child(3),
+  .topo-direito img:nth-child(4) {
+    display: none;
+  }
+
+  .topo {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+  }
+}
+
+.username span {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.bookmark {
+  font-size: 24px;
+  cursor: pointer;
+}
+.AiTwotoneHeart {
+  margin-top: 3px;
+  color: red;
+  font-size: 27px;
+  cursor: pointer;
+}
+.AiOutlineHeart {
+  font-size: 27px;
+  cursor: pointer;
+  margin-top: 3px;
+}
